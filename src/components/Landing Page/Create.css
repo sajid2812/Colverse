@@ -1,0 +1,81 @@
+.model{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #403e3eeb;
+    display: flex;
+    
+}
+
+.create {
+    
+  width: 40%;
+  height: 20%;
+  
+  margin: 12% 35%;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  
+}
+
+.create__input {
+  margin-top: 10px;
+  width: 90%;
+  height: 40px;
+  padding: 0 13px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 2px;
+}
+
+.create__second {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 15px;
+}
+
+.file {
+  display: none;
+
+}
+.camera {
+  color: #403e3e;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.create__second-a {
+  display: flex;
+  margin-top: 10px;
+}
+
+.create__second-a span{
+  color: black;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.create__second-b {
+  flex: 1;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.btn-sweet{
+    background: #403e3e;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+

@@ -1,0 +1,49 @@
+.Head {
+  text-align: center;
+  margin-top: 40px;
+
+  background-size: 100%;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #f56772 45%, #7280ff 55%);
+}
+.mainCollege {
+  display: flex;
+  color: black;
+  margin-top: 25px;
+  justify-content: space-evenly;
+}
+.alignementcollege {
+  display: flex;
+  background: white;
+  /* justify-content: center; */
+  margin: 5% 0%;
+  padding: 5% 3%;
+  border-radius: 5px;
+}
+.page_optionsCollege {
+  width: 16%;
+  margin-top: 13%;
+  text-decoration: none;
+}
+.bodyCollege {
+  width: 50%;
+  height: 82vh;
+  background-color: #eae5e5;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.total_usersCollege {
+  border-radius: 5px;
+  width: 16%;
+  height: 31.5vh;
+  background-color: white;
+  margin-top: 13%;
+  overflow-y: scroll;
+}
+
+.total_usersCollege > h3 {
+  margin: 10px 0;
+}

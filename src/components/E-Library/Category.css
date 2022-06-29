@@ -1,0 +1,12 @@
+.category__container {
+  background-color: #005274;
+  color: #f9fcf6;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.category__container > h2 {
+  font-weight: 300;
+}

@@ -1,0 +1,13 @@
+.body__library {
+  width: 50%;
+  height: 82vh;
+  background-color: #eae5e5;
+  /* overflow-y: scroll; */
+}
+
+.categories {
+  padding: 5px;
+}
+.category__link{
+  text-decoration: none;
+}

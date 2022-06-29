@@ -1,0 +1,55 @@
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #403e3eeb;
+  display: flex;
+}
+
+.write {
+  width: 40%;
+  height: 25%;
+
+  margin: 12% 35%;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+
+.write__input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 100px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 2px;
+}
+
+.btn-container {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container span {
+  cursor: pointer;
+  color: black;
+}
+
+.btn-submit {
+  background: #403e3e;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 5px;
+  height: 30px;
+  width: 60px;
+}

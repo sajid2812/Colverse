@@ -1,0 +1,15 @@
+.main {
+  padding: 5% 8%;
+}
+.profileImage {
+  width: 25px;
+  border-radius: 11px;
+  margin-right: 5px;
+}
+.flex {
+  display: flex;
+}
+
+.main .flex .name {
+  margin: 1% 2%;
+}

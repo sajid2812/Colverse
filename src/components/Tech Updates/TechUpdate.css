@@ -1,0 +1,42 @@
+.Head {
+  text-align: center;
+  margin-top: 40px;
+}
+.mainTech {
+  display: flex;
+  color: black;
+  margin-top: 25px;
+  justify-content: space-evenly;
+}
+.alignementtech {
+  display: flex;
+  background: white;
+  /* justify-content: center; */
+  margin: 5% 0%;
+  padding: 5% 3%;
+  border-radius: 5px;
+}
+.page_optionsTech {
+  width: 16%;
+  margin-top: 13%;
+  text-decoration: none;
+}
+.bodyTech {
+  width: 46%;
+  height: 82vh;
+  background-color: #eae5e5;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.total_userstech {
+  border-radius: 5px;
+  width: 16%;
+  height: 31.5vh;
+  background-color: white;
+  margin-top: 13%;
+  overflow-y: scroll;
+}
+
+.total_userstech > h3 {
+  margin: 10px 0;
+}

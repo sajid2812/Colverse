@@ -1,0 +1,73 @@
+.main {
+  padding: 4% 4%;
+  border-bottom: 1px solid #80808059;
+  background: #fff;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+.main p {
+  text-align: left;
+  margin-top: 3%;
+}
+.profImage {
+  width: 30px;
+  border-radius: 11px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.user__data {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.see__more {
+  /* color: rgb(51 165 241); */
+  text-decoration: none;
+  font-size: 2rem;
+}
+.main .flex .name {
+  margin-left: 5px;
+}
+.main_post {
+  margin: 2% 0%;
+}
+.main_post > img {
+  width: 100%;
+}
+
+.comment {
+  cursor: pointer;
+}
+.share {
+  cursor: pointer;
+}
+
+.dustbin {
+  cursor: pointer;
+}
+
+.dustbin :hover {
+  color: red;
+}
+.reactions {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+}
+
+.reactions .comment,
+.reactions .share {
+  margin-left: 25px;
+}
+
+.lcs__container {
+  display: flex;
+  margin-left: 10px;
+  width: 70%;
+  align-items: center;
+}

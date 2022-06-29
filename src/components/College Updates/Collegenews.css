@@ -1,0 +1,21 @@
+.MainContent{
+    display: flex;
+    margin: 100px 50px;
+    /* border: 1px solid black; */
+    color:black;
+
+   
+}
+.NewsHead{
+    margin:0px 0px;
+    text-decoration: underline;
+    text-align: justify;
+}
+.para{
+    text-align:justify;
+}
+.image{
+    width: 200px;
+    height: 150px;
+    margin:10px 10px;
+}

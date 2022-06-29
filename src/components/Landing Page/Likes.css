@@ -1,0 +1,22 @@
+.like__container{
+    display: flex;
+    align-items: center;
+}
+
+.like__container span{
+    margin-left: 5px;
+}
+
+.like__icon{
+    cursor: pointer;
+}
+.like{
+    color: rgb(208 200 200);
+    
+    
+}
+
+.after__like{
+   color: black;
+   
+}

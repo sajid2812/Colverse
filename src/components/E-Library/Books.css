@@ -1,0 +1,30 @@
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  /* justify-content: space-evenly; */
+}
+.body__library {
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+.heading__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.uploadBook__container {
+  display: flex;
+  width: 7%;
+  padding: 0.5% 1.5%;
+  margin: 0% 1%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+}

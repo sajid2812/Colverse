@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+.book__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.book__title {
+  margin: 5px 0;
+}
+.bookImage__container {
+  width: 50%;
+  margin: 5px 0;
+}
+
+.book__image {
+  width: 100%;
+}
+.download__container {
+  display: flex;
+  
+  /* align-items: center; */
+}
+.download__container > a{
+  margin-left: 5px;
+  margin-top: 20px;
+}
